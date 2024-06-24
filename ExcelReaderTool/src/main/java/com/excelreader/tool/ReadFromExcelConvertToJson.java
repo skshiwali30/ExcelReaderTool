@@ -10,7 +10,7 @@ import java.util.*;
 
 public class ReadFromExcelConvertToJson {
 
-	private static final String SAMPLE_XLSX_FILE_PATH = "C:\\Users\\ss186034\\OneDrive - NCR ATLEOS\\Documents\\Tickets\\partnerUsersQ1.xlsx";
+	private static final String SAMPLE_XLSX_FILE_PATH = "C:\\Documents\\Tickets\\partnerUsersQ1.xlsx";
 
     public static void main(String[] args) {
         Object json = processSmallFile(SAMPLE_XLSX_FILE_PATH, "Sheet1");
